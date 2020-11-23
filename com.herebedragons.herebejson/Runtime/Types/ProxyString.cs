@@ -1,7 +1,7 @@
 using System;
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	public sealed class ProxyString : Variant
 	{

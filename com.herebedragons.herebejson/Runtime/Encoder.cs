@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	public sealed class Encoder
 	{

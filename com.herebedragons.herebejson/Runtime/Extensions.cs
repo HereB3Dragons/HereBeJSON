@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	public static class Extensions
 	{

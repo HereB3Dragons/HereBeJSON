@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	public sealed class ProxyArray : Variant, IEnumerable<Variant>
 	{

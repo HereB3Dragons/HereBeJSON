@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	public abstract class Variant : IConvertible
 	{

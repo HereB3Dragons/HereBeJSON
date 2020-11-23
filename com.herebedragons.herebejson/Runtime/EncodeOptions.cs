@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	[Flags]
 	public enum EncodeOptions

@@ -3,7 +3,7 @@ using System.Text;
 using System;
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	public sealed class Decoder : IDisposable
 	{

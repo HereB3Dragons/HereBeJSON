@@ -10,7 +10,7 @@ using UnityEngine.Scripting;
 #endif
 
 
-namespace TinyJSON
+namespace HereBeJSON
 {
 	/// <summary>
 	/// Mark members that should be included.
