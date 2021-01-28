@@ -5,6 +5,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Text;
+using UnityEngine;
 
 namespace HereBeJSON
 {
@@ -16,9 +17,17 @@ namespace HereBeJSON
     {
         public static string ToJson(this object item)
         {
-            StringBuilder stringBuilder = new StringBuilder();
-            AppendValue(stringBuilder, item);
-            return stringBuilder.ToString();
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder();
+                AppendValue(stringBuilder, item);
+                return stringBuilder.ToString();
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("Could not output json. reason: " + e.Message);
+                return null;
+            }
         }
 
         static void AppendValue(StringBuilder stringBuilder, object item)
